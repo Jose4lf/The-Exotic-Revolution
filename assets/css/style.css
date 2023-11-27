@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display:  flex;
+    justify-content:  center;
+    align-items: center;
+    background-image: url(../img/imagen1.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 4px 4px 10px 1px #efebe6;
+    border-radius: 20px;
+
+}
+
+form img{
+    width: 300px;
+    height:  150px;
+    padding: 10px;
+}
+form input[type="text"], input[type="password"]{
+    outline: 0;
+    border: 1px solid #ccc;
+    width: 80%;
+    padding: 7px;
+}
+form label{
+    color: #efebe6;
+    font-weight: 500;
+    padding: 20px;
+}
+.box-visible{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loginForm{
+    color: #000000;
+}
+form button{
+    outline: 0;
+    border: 0;
+    background-color: royalblue;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 1rem;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    color:  #fff;
+    font-weight: 500;
+}
+form button{
+    opacity: .75;
+}
